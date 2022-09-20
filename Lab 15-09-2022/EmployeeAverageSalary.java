@@ -6,13 +6,13 @@ public class EmployeeAverageSalary {
 		double emp3;
 		
 		// Displaying the given details
-		System.out.println("The total average salary of employees in a week is " + avg_salary);
-		System.out.println("Salary of first employee is " + emp1);
-		System.out.println("Salary of second employee is " + emp2);
+		System.out.println("The total average salary of employees in a week is Rs." + avg_salary);
+		System.out.println("Salary of first employee is  Rs. " + emp1);
+		System.out.println("Salary of second employee is  Rs. " + emp2);
 		System.out.println("Calculating third employee salary...");
 		System.out.println();
 		
 		emp3 = (avg_salary * 3) - (emp1 + emp2); // Formula to calculate the salary of third employee
-		System.out.print("Salary of third employee will be " + emp3); // Salary of third employee
+		System.out.print("Salary of third employee will be Rs." + emp3); // Salary of third employee
 	}
 }
